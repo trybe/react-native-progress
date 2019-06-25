@@ -121,7 +121,7 @@ export default class CircleSnail extends Component {
       style,
       children,
       direction,
-      ...restProps,
+      ...restProps
     } = this.props;
 
     if (!animating && hidesWhenStopped) {
