@@ -52,7 +52,7 @@ export default class ProgressCircle extends Component {
       thickness,
       unfilledColor,
       text,
-      ...restProps,
+      ...restProps
     } = this.props;
 
     borderWidth = borderWidth || (indeterminate ? 1 : 0);
