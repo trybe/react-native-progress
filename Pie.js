@@ -36,7 +36,7 @@ export default class ProgressPie extends Component {
       unfilledColor,
       indeterminate,
       children,
-      ...restProps,
+      ...restProps
     } = this.props;
 
     const angle = progress * Math.PI * 2;
